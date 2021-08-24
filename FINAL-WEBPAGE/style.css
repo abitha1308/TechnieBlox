@@ -85,10 +85,15 @@ main {
 
 #about,
 #login,
-#query {
+#query,
+#cards {
   color: lightgrey;
   background-color: black;
   border-bottom: 30px solid grey;
+}
+
+#cards {
+  color: black;
 }
 
 .box {
@@ -109,8 +114,12 @@ fieldset {
   color: lightgrey;
 }
 
-#about h2 {
+#about h2,
+#login h2,
+#query h2,
+#cards h2 {
   color: red;
+  padding-bottom: 20px;
 }
 textarea {
   background-color: grey;
